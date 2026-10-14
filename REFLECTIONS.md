@@ -46,4 +46,6 @@ Pour corriger cela il faudrait peut être ajouter un bandeau ou un badge de stat
 - **Fichiers modifiés :**
   - `scripts/fetch_and_score.py` : Remplacement des coordonnées de Paris par celles de Madrid (`40.4168, -3.7038`) et mise à jour de la variable utilisée dans le calcul de la distance (`ORIGIN_LAT`, `ORIGIN_LON`).
   - `docs/index.html` : Remplacement du texte de titre "from Paris" par "from Madrid".
+- **Impact du changement d'origine :**
+  Madrid étant située dans le sud de l'Europe, les capitales ibériques/méditerranéennes ou d'Europe du Sud se retrouvent très proches (faible distance et faibles émissions CO₂), tandis que les capitales scandinaves ou baltes subissent une pénalité importante sur le score CO₂. La "meilleure" destination est donc totalement dépendante et relative au point de départ choisi.
 
