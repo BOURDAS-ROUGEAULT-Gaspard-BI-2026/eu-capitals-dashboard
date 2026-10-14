@@ -42,3 +42,8 @@ Ce signal est insuffisant car il exige une vérification manuelle du visiteur.
 Pour corriger cela il faudrait peut être ajouter un bandeau ou un badge de statut plus visible.
 
 ### 8. Which file(s) you changed for the origin-city extension, and whether the "best" destination is absolute or relative to your starting point.
+
+- **Fichiers modifiés :**
+  - `scripts/fetch_and_score.py` : Remplacement des coordonnées de Paris par celles de Madrid (`40.4168, -3.7038`) et mise à jour de la variable utilisée dans le calcul de la distance (`ORIGIN_LAT`, `ORIGIN_LON`).
+  - `docs/index.html` : Remplacement du texte de titre "from Paris" par "from Madrid".
+
