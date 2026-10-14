@@ -27,6 +27,8 @@ La capitale médiocre se retrouverait alors mécaniquement plus haut dans l'inte
 
 ### 5. Your predicted winning capital, before running the script.
 
+En privilégiant un climat très favorable tout en appliquant une pénalité sur les émissions CO2, Madrid devrait obtenir le meilleur score global car son ensoleillement élevé et ses températures douces compensent largement sa distance intermédiaire depuis Paris par rapport aux capitales nordiques ou très proches. 
+
 ### 6. Whether your prediction matched the real result, and why/why not.
 
 ### 7. What signal on the live page would tell a visitor the pipeline had silently broken.
