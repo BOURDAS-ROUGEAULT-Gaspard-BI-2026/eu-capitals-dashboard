@@ -8,6 +8,10 @@ Pour moi, le climat agréable valide le départ, mais l'empreinte carbone tranch
 
 ### 2. Why one batched API call is more reliable, not just faster, than 26 separate calls.
 
+Avec 26 requêtes, on répète le processus 26 fois. Cette répétition multiplie par 26 les chances d'une coupure ou latence réseau, ce qui fait échouer la requête en cours
+et interrompt le script. Avec 1 seule requête groupée, on exécute la requête une seule fois ce qui minimise le risque de perte de réseau. Un autre problème vient directement
+de l'API qui peut limiter le nombre de requêtes consécutives pour éviter les attaques ou le spam. En fonction de l'API, elle risque donc de bloquer des requêtes.
+
 ### 3. What you'd do about the CO₂ emissions-factor number before publishing this for real.
 
 ### 4. What normalization within a list of 26 means for a KPI vs. a raw measurement.
