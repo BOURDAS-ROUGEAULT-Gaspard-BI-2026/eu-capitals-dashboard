@@ -31,6 +31,14 @@ En privilégiant un climat très favorable tout en appliquant une pénalité sur
 
 ### 6. Whether your prediction matched the real result, and why/why not.
 
+La prédiction ne correspond pas au résultat réel affiché par le pipeline, où Rome arrive en tête du classement avec la formule 50/50.
+Ce qui me surprend principalement c'est que bien que Madrid offre une météo nettement supérieure (température et ensoleillement), sa distance importante depuis Paris lui attribue un score CO2 très bas une fois normalisé sur l'échelle 0-1.
+
 ### 7. What signal on the live page would tell a visitor the pipeline had silently broken.
+
+La seule information permettant au visiteur de détecter un arrêt du pipeline est la ligne Data last updated.
+Si la date affichée a plus de 7 jours (la fréquence étant hebdomadaire), les données ne sont plus à jour.
+Ce signal est insuffisant car il exige une vérification manuelle du visiteur. 
+Pour corriger cela il faudrait peut être ajouter un bandeau ou un badge de statut plus visible.
 
 ### 8. Which file(s) you changed for the origin-city extension, and whether the "best" destination is absolute or relative to your starting point.
