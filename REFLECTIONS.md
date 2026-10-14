@@ -20,6 +20,11 @@ d'inclure le forçage radiatif en altitude, et de mentionner explicitement la so
 
 ### 4. What normalization within a list of 26 means for a KPI vs. a raw measurement.
 
+La température réelle de la capitale médiocre ne changerait absolument pas (la mesure physique reste identique). 
+En revanche, son score augmenterait.   
+Puisque la normalisation étire les valeurs entre le minimum et le maximum du groupe, l'arrivée d'une ville encore plus froide et pluvieuse abaisserait la borne minimale. 
+La capitale médiocre se retrouverait alors mécaniquement plus haut dans l'intervalle [0-1]. 
+
 ### 5. Your predicted winning capital, before running the script.
 
 ### 6. Whether your prediction matched the real result, and why/why not.
