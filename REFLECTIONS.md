@@ -14,6 +14,10 @@ de l'API qui peut limiter le nombre de requêtes consécutives pour éviter les 
 
 ### 3. What you'd do about the CO₂ emissions-factor number before publishing this for real.
 
+Pour rendre ce chiffre exploitable par de vrais voyageurs, je remplacerais cette constante fixe par une API d'empreinte carbone mise à jour. 
+Cela permettrait de calculer l'impact selon le mode de transport réel (train vs avion) plutôt que d'imposer un vol court-courrier, 
+d'inclure le forçage radiatif en altitude, et de mentionner explicitement la source méthodologique sur le dashboard pour garantir la transparence des données.
+
 ### 4. What normalization within a list of 26 means for a KPI vs. a raw measurement.
 
 ### 5. Your predicted winning capital, before running the script.
