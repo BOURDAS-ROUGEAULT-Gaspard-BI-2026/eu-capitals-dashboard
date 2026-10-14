@@ -1,7 +1,7 @@
 import csv, json, math, time
 import requests
 
-ORIGIN_LAT, ORIGIN_LON = 48.0061, 0.1996  # Coordonnées du Mans
+ORIGIN_LAT, ORIGIN_LON = 40.4168, -3.7038  # Coordonnées du Mans
 EMISSIONS_FACTOR_KG_PER_KM = 0.15  # DEFRA-style short-haul factor -- verify/update
 
 def haversine_km(lat1, lon1, lat2, lon2):
@@ -53,7 +53,7 @@ def main():
     with open("data/capitals.csv") as f:
         rows = list(csv.DictReader(f))
 
-    dest_rows = [row for row in rows if row["capital"] != "Le Mans"]
+    dest_rows = [row for row in rows if row["capital"] != "Madrid"]
     lats = [float(row["lat"]) for row in dest_rows]
     lons = [float(row["lon"]) for row in dest_rows]
 
